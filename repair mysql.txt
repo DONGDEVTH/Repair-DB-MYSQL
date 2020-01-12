@@ -1,0 +1,23 @@
+
+
+Check a Specific Table (poller_output) in a Database:
+
+Code:
+>>>>>>>>>>>> mysqlcheck -c cacti poller_output -u root -p
+
+
+Check All Tables in a Database:
+
+Code:
+>>>>>>>>>>>> mysqlcheck -c cacti -u root -p
+
+
+Repair Table (poller_output) using Mysqlcheck:
+
+Code:
+>>>>>>>>>>>>  mysqlcheck -r cacti poller_output -u root -p
+
+
+on cmd
+C:\Program Files\MySQL\MySQL Server 5.5
+
